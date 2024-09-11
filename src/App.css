@@ -1,0 +1,100 @@
+/* Container STYLINGS */
+.App{
+  justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.main-container{
+  height: fit-content;
+  width: 500px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+/* END OF Container STYLINGS */
+
+
+
+
+
+
+
+/* TOP NAV STYLINGS */
+
+.TopNav{
+  width: -webkit-fill-available;
+  background-color: darkgrey;
+  border-bottom: 5px solid black;
+  justify-content: space-between;
+  align-items: center;
+  display: flex; 
+  height: 100px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.TopNavLogo {
+  width: 70px;
+  height:70px;
+  background: transparent;
+}
+.TopNavLogo img{
+  width:  -webkit-fill-available;
+  height: -webkit-fill-available;
+  background-color: transparent;
+}
+.TopNavButtons{
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+.topnav-btn {
+  background-color: transparent;
+  border: 0px solid transparent; /* Ensure the border is defined even if it's 0px initially */
+  transition: background-color 0.3s ease-in, border 0.3s ease-in; /* Specify which properties to transition */
+
+}
+
+.topnav-btn:hover {
+  background-color: white;
+  border: 1px solid black; /* Add border on hover */
+  cursor: pointer;
+}
+.NavButton{
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+/* End OF TOP NAV STYLINGS */
+
+
+
+
+
+
+/* MAIN CONTAINER STYLING */
+
+.AddInputTask{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.AddInput{
+  border: 0px;
+  border-bottom: 3px grey solid;
+}
+.AddInput:focus{ 
+  /* border: 0px ; */
+  outline: none;
+  border-bottom: 3px black solid;
+}
+.save-btn ,.delete-btn{
+  background-color: transparent;
+}
+
+/* END OF MAIN CONTAINER STYLING */
