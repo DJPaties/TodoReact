@@ -7,11 +7,36 @@
 }
 .main-container{
   height: fit-content;
-  width: 500px;
+  width: fit-content;
   justify-content: center;
   align-items: center;
   display: flex;
   flex-direction: column;
+}
+.InputButtonContainer{
+  display: flex;
+  gap: 5px;
+}
+.AddTaskForm{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+  gap: 30px;
+}
+.add-btn{
+  width: 100px;
+  background-color: transparent;
+  border: 2px dashed black;
+  transition: border 0.3s ease-in, background-color 0.3s ease-in, color 0.3s ease-in; /* Transition for both border and background */
+}
+.add-btn:hover{
+  /* width: 100px; */
+  cursor: pointer;
+  background-color: grey;
+  border: 2px solid black;
+  color: white;
 }
 
 /* END OF Container STYLINGS */
@@ -87,6 +112,12 @@
 .AddInput{
   border: 0px;
   border-bottom: 3px grey solid;
+  width: 500px;
+  
+}
+.AddInput::placeholder{
+  font-size: large;
+  text-align: center;
 }
 .AddInput:focus{ 
   /* border: 0px ; */
@@ -95,6 +126,9 @@
 }
 .save-btn ,.delete-btn{
   background-color: transparent;
+  border: 0px;
+  cursor: pointer;
 }
+
 
 /* END OF MAIN CONTAINER STYLING */

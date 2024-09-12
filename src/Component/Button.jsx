@@ -2,7 +2,7 @@ import React from "react"
 export const  AddButton  = ({text,btnclass,onClick}) =>{
     return (
         <div className="AddButton">    
-        <button className={btnclass} onClick={onClick}>
+        <button className={btnclass} onClick={onClick} type="submit">
             {text}
         </button>
         </div>
