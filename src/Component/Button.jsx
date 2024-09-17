@@ -10,7 +10,6 @@ export const  AddButton  = ({text,btnclass,onClick}) =>{
 }
 
 export  const  NavButton = ({text,btnclass,onClick,navImg}) =>{
-    // const element = <FontAwesomeIcon icon="fa-kit fa-my-icon" />
 
     return (
         <div className="NavButton">

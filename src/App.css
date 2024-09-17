@@ -38,6 +38,10 @@
   border: 2px solid black;
   color: white;
 }
+.error {
+  color: red;
+  margin-top: 10px;
+}
 
 /* END OF Container STYLINGS */
 
